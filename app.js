@@ -17,3 +17,7 @@ menu_btn.addEventListener('click', ()=>{
     menu_bx.classList.toggle('ul_active');
 })
 
+menu_btn.onclick=() =>{
+    menu_btn.classList.toggle('bx-x');
+    menu_bx.classList.toggle('open');
+}
